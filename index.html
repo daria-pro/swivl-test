@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="containter-fluid">
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.svg" alt="logo" class="logo"
+          /></a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Arthur Wood</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="images/user1.svg" alt="user picture"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="images/drop-down.svg" alt="drop-down icon"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="images/bell.svg" alt="bell icon"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="images/present.svg" alt="present icon"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="images/medium.svg" alt="medium icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navbar navbar-dark">
+          <form class="form-inline">
+            <button class="btn" type="button">FEED</button>
+            <button class="btn" type="button">EXPLORE</button>
+            <button class="btn" type="button">DISCUSSIONS</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 section user-details">
+          <div class="profile-details">
+            <img class="avatar" src="images/avatar.svg" alt="avatar" />
+            <div class="user-name">
+              <h1>Benjamin<br />Clementine</h1>
+
+              <p>@benclementine</p>
+
+              <p class="edit-profile">
+                <a href="#"
+                  ><img src="images/edit-icon.svg" alt="edit icon" />Edit
+                  Profile</a
+                >
+              </p>
+            </div>
+
+            <!-- Drop-down menu -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="numbers">
+            <p class="numbers-item">
+              <span class="number">45</span> <br />synths
+            </p>
+            <p class="numbers-item">
+              <span class="number">110</span> <br />followers
+            </p>
+            <p class="numbers-item">
+              <span class="number">322</span> <br />following
+            </p>
+          </div>
+          <p class="profile-description">
+            Cryptocurrencies including Ethereum, Ripple, and Litecoin have all
+            plunged between 20 to 30 percent each, according to CoinMarketCap.
+            Here is the latest Ripple price news and live updates on XRP,
+            bitcoin and Ethereum.
+          </p>
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-sm-12 section container-right">
+          <div class="switch-section">
+            <p>
+              <span class="switch-item">Public</span>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <span class="switch-item">Private</span>
+            </p>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <p class="card-main-text">
+                New air routes that promise cheap flights in
+              </p>
+              <div class="card-bottom-text">
+                <p>
+                  <img class="card-avatar" src="images/Oval.svg" alt="avatar" />
+                  <span class="card-person-name">Gregory Watkins</span>
+                </p>
+                <a class="card-share-btn" href="#">Share</a>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-main-text">
+                New air routes that promise cheap flights in
+              </p>
+              <div class="card-bottom-text">
+                <p>
+                  <img
+                    class="card-avatar"
+                    src="images/Oval.svg"
+                    alt="avatar"
+                  /><span class="card-person-name">Gregory Watkins</span>
+                </p>
+                <a class="card-share-btn" href="#">Share</a>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-shared-info">
+                Shared to
+                <button class="card-shared-button">
+                  #discussionaboutanimgttdds…
+                </button>
+              </p>
+              <p class="card-main-text">
+                New air routes that promise cheap flights in
+              </p>
+              <div class="card-bottom-text">
+                <p>
+                  <img class="card-avatar" src="images/Oval.svg" alt="avatar" />
+                  <span class="card-person-name">Gregory Watkins</span>
+                </p>
+                <p>
+                  <img
+                    class="card-icon"
+                    src="images/icon_view.svg"
+                    alt="Icon view"
+                  />
+                  88
+                  <img
+                    class="card-icon"
+                    src="images/icon_like.svg"
+                    alt="Icon like"
+                  />
+                  24
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-shared-info">
+                <img src="images/icon_link.svg" alt="icon link" /> Shared via
+                weblink
+              </p>
+              <p class="card-main-text">
+                New air routes that promise cheap flights in
+              </p>
+              <div class="card-bottom-text">
+                <p>
+                  <img class="card-avatar" src="images/Oval.svg" alt="avatar" />
+                  <span class="card-person-name">Gregory Watkins</span>
+                </p>
+                <p>
+                  <img
+                    class="card-icon"
+                    src="images/icon_view.svg"
+                    alt="Icon view"
+                  />
+                  88
+                  <img
+                    class="card-icon"
+                    src="images/icon_like.svg"
+                    alt="Icon like"
+                  />
+                  24
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

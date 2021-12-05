@@ -1,0 +1,261 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.container {
+  padding: 0;
+  margin: 0 135px;
+}
+
+.containter-fluid {
+  background-color: white;
+  padding: 0 135px;
+}
+.container-right {
+  margin: 48px 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 24px 0 0 0;
+  text-align: center;
+}
+
+.logo {
+  color: #3e4056;
+  width: 50px;
+}
+
+.btn {
+  border: none;
+  padding: 0 0px 24px 0;
+  margin-right: 36px;
+  color: #3e4056;
+  opacity: 0.6;
+  border-bottom: 4px solid white;
+}
+
+.btn:hover {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 4px solid #e32c75;
+  color: #3e4056;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* Switch section */
+.switch-section {
+  margin-bottom: 62px;
+  width: 50%;
+  padding: 0 0 0 48px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+.switch-item {
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ed5267;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0px #ed5267;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.profile-description {
+  /* width: 350px; */
+}
+
+.section {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+/* Switch section */
+.switch-item {
+  color: #3e4056;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+/* Cards section  */
+.card-shared-info {
+  color: #3e4056;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.card-shared-button {
+  background: #ecf1f8;
+  border: none;
+  padding: 0;
+  border-radius: 6px;
+}
+.cards {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding: 0 0 0 48px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 24px 24px 0;
+  padding: 24px;
+  box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.12);
+}
+.card-main-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 1em;
+  margin-bottom: 45px;
+}
+.card-bottom-text {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card-avatar {
+  margin-right: 8px;
+}
+.card-person-name {
+  margin: 46px 0 0 0;
+}
+.card-share-btn {
+  color: #f05d63;
+  font-size: 18px;
+}
+.card-icon {
+  margin: 0 8px 0 16px;
+}
+/* User info left section */
+
+.profile-details {
+  display: flex;
+  flex: wrap;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 48px 0 0 0;
+}
+
+.user-name,
+.dots-menu {
+  margin: 6px 0 0 25px;
+}
+
+.avatar {
+  /* position: absolute; */
+  top: 0;
+}
+.edit-profile {
+  padding-bottom: 0;
+}
+.edit-profile a {
+  color: #f05d63;
+  text-decoration: underline;
+}
+.edit-profile img {
+  margin-right: 8px;
+}
+
+.numbers {
+  display: flex;
+  margin: 32px 0 0 0;
+}
+.numbers-item {
+  margin: 0 48px 24px 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.number {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.profile-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
