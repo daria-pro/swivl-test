@@ -10,7 +10,6 @@ html {
 body {
   background-color: #f2f2f2;
   margin: 0;
-  padding: 0;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -20,13 +19,13 @@ h1 {
 }
 
 .container {
-  padding: 0;
-  margin: 0 135px;
+  padding: 0 7%;
+  margin: 0;
+  max-width: 1440px;
 }
 
 .containter-fluid {
   background-color: white;
-  padding: 0 135px;
 }
 .container-right {
   margin: 48px 0;
@@ -35,7 +34,8 @@ h1 {
 /* Navigation bar */
 
 .navbar {
-  padding: 24px 0 0 0;
+  padding: 24px 7% 0 7%;
+  max-width: 1440px;
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ h1 {
 /* Switch section */
 .switch-section {
   margin-bottom: 62px;
-  width: 50%;
+
   padding: 0 0 0 48px;
 }
 .switch {
@@ -189,6 +189,7 @@ input:checked + .slider:before {
 }
 .card-bottom-text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
